@@ -58,6 +58,6 @@ pip install -r requirements.txt
 
 
 ## Contributors
-- [Lo Pang-Yun Ting](https://github.com/teila0906)
+This codebase is co-developed with the following members from [NetDB](https://ncku-ccs.github.io/netdb-web/), NCKU
 - [You-Cheng Guo](https://github.com/ecfack)
 - [Shih-Hsun Lin](https://github.com/ShlinBrian)
