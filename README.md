@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ```
 
 ### Dataset
-* `dataset/preprocess_data/Palto_Alto_2019_preprocess.csv`
+* `code/dataset/preprocess_data/Palto_Alto_2019_preprocess.csv`
 
 ### Model
 * `macdp.py`: Our main model.
