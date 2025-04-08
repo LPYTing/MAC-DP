@@ -1,0 +1,11 @@
+folium
+shapely
+numpy
+pandas
+requests
+python-dotenv
+scipy
+loguru
+shapely
+geopy
+black
