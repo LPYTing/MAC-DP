@@ -42,8 +42,8 @@ pip install -r requirements.txt
 * `code/dataset/preprocess_data/Palto_Alto_2019_preprocess.csv`
 
 ### Model
-* `macdp.py`: Our main model.
-- `variation/`: (models with different action selection strategies and reward formulations)
+* `code/macdp.py`: Our main model.
+- `code/variation/`: (models with different action selection strategies and reward formulations)
     - Different action selection strategies:
         * `macdp_1h_only.py`: restricts all MCSs (agents) can only move 1 hop in the hexagonal-grid map.
         * `macdp_1h_prior.py`: all MCSs (agents) can move 1 hop or 2 hops in the map, however, 1-hop action are assigned higher selection probabilities.
@@ -53,7 +53,7 @@ pip install -r requirements.txt
         * `macdp_weighted_F.py`: adjusts the contribution of potential rewards from FCSs in the global reward.
 
 ### Evaluation
-* `evaluation/`
+* `code/evaluation/`
     * `eval-macdp.py`: evaluates the model generated from `macdp.py` and estimates the utilization of charging stations and charging delay cost (hr.).
 
 
