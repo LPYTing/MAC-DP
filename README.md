@@ -4,7 +4,7 @@ The **MAC-DP** framework (**M**ulti-**A**gent **C**ontrol for **D**ynamic **P**l
 
 ![Framework](figure/framework.png)
 
-Built upon our previous work, [2PM-MARL](https://link.springer.com/chapter/10.1007/978-981-97-2262-4_23) (*Ting et al., 2024*), publised in *PAKDD 2024*, which introduced a hybrid deployment of fixed charging stations (FCSs) and mobile charging stations (MCSs), MAC-DP enhances the coordination between FCSs and MCSs to improve EV user experience and operational efficiency.
+This work is built upon our previous paper, [2PM-MARL](https://link.springer.com/chapter/10.1007/978-981-97-2262-4_23) (*Ting et al., 2024*), publised in *PAKDD 2024*, which introduced a hybrid deployment of fixed charging stations (FCSs) and mobile charging stations (MCSs), MAC-DP enhances the coordination between FCSs and MCSs to improve EV user experience and operational efficiency.
 
 
 
@@ -30,8 +30,8 @@ These enhancements provide a deeper understanding of how MARL design choices inf
 
 📌 **Note**
 
-This repository includes the main code for our proposed framework, **MAC-DP**.  
-We are currently organizing and cleaning up the implementation — the repo will be continuously updated.   
+This repository includes the main code for our proposed framework, MAC-DP.  
+We are currently organizing and cleaning up the implementation, and the repo will be continuously updated.   
 
 ### Requirements
 ```
