@@ -8,7 +8,7 @@ Built upon our previous work, [2PM-MARL](https://link.springer.com/chapter/10.10
 
 
 
-## Background
+## Introduction
 
 The [2PM-MARL](https://link.springer.com/chapter/10.1007/978-981-97-2262-4_23) framework (*Our previous work*):
 - Treats each MCS as an individual agent and utilizes MARL (Mult-Agent Reinforcement Learning) to dynamically control MCS placement.
@@ -28,7 +28,7 @@ These enhancements provide a deeper understanding of how MARL design choices inf
 
 ## Experiments
 
-**Note**
+📌 **Note**
 
 This repository includes the main code for our proposed framework, **MAC-DP**.  
 We are currently organizing and cleaning up the implementation — the repo will be continuously updated.   
