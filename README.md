@@ -41,6 +41,24 @@ pip install -r requirements.txt
 ### Dataset
 * `code/dataset/preprocess_data/Palto_Alto_2019_preprocess.csv`
 
+### Hexagonal Grid Map
+
+We build a hexagonal grid map using the [H3 library](https://github.com/uber/h3) in our work (`code/model/utils/hex_environment.py`).  
+The grid map is automatically constructed when running our model `code/macdp.py`.
+
+#### ⚙️ Map Settings
+
+- **Hexagonal Tiling with H3**  
+  `h3.polyfill()` is used to convert a polygon to H3 indices, then to `shapely.Polygon` hexagons.
+
+
+- **Adjustable Resolution**  
+  In our implementation, we use **resolution 8** for balanced granularity and efficiency.
+
+- **Grid Locator**  
+  The `located_grid()` function takes a (latitude, longitude) point and returns the index of the containing or nearest hexagon.
+
+
 ### Model
 * `code/macdp.py`: Our main model.
 - `code/variation/`: (models with different action selection strategies and reward formulations)
