@@ -40,6 +40,7 @@ pip install -r requirements.txt
 
 ### Dataset
 * `code/dataset/preprocess_data/Palto_Alto_2019_preprocess.csv`
+    - This preprocessed dataset is created by enlarging the original Palo Alto dataset by a factor of four to simulate a high-demand, low-supply charging scenario.
 
 ### Hexagonal Grid Map
 
